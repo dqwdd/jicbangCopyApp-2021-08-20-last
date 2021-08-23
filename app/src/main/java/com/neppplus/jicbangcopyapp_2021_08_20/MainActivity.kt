@@ -8,8 +8,6 @@ import com.neppplus.jicbangcopyapp_2021_08_20.RoomData.RoomData
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
-    
-//    두번째 연습용 주석
 
     val mRoomList = ArrayList<RoomData>()
 //    방 목록을 담아주기 위한 배열

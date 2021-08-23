@@ -18,7 +18,7 @@ class ViewRoomDetailActivity : AppCompatActivity() {
         priceTxt.text = roomData.getFormattedPrice()
         descriptionTxt.text = roomData.description
 
-        placeAndFloorTxt.text = roomData.place
+        addressTxt.text = roomData.place
         floorTxt.text = roomData.getFormattedFloor()
 
     }
