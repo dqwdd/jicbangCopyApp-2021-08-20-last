@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">jicbangCopyApp-2021-08-20</string>
+    <string name="app_name">직방 카피</string>
+    <string name="second_name">연습용</string>
+    <string name="address">행정구역</string>
 </resources>
