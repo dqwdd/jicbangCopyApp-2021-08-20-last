@@ -31,28 +31,13 @@
                 android:textColor="#FEA409"
                 android:text="가격"/>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
                 <TextView
-                    android:id="@+id/placeTxt"
+                    android:id="@+id/placeAndFloorTxt"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="@color/black"
                     android:textSize="16sp"
-                    android:text="지역"/>
-
-                <TextView
-                    android:id="@+id/floorTxt"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/black"
-                    android:textSize="16sp"
-                    android:text="층"
-                    android:layout_marginLeft="10dp"/>
-            </LinearLayout>
+                    android:text="위치와 층"/>
 
             <TextView
                 android:id="@+id/descriptionTxt"
@@ -60,13 +45,8 @@
                 android:layout_height="wrap_content"
                 android:text="방 설명"/>
 
-
-
         </LinearLayout>
 
-
-
     </LinearLayout>
-
 
 </LinearLayout>

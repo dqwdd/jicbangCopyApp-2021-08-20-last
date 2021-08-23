@@ -26,19 +26,14 @@ class RoomAdapter (
 
         val data = mroomList[position]
 
-
         val priceTxt = row.findViewById<TextView>(R.id.priceTxt)
-        val placeTxt = row.findViewById<TextView>(R.id.placeTxt)
-        val floorTxt = row.findViewById<TextView>(R.id.floorTxt)
+        val placeAndFloorTxt = row.findViewById<TextView>(R.id.placeAndFloorTxt)
         val descriptionTxt = row.findViewById<TextView>(R.id.descriptionTxt)
-//
-//
-        if (data.floor >= 1)
-        priceTxt.text = data.price.toString()
-        placeTxt.text = data.place
-        floorTxt.text = data.price.toString()
-        descriptionTxt.text = data.price.toString()
 
+
+        priceTxt.text = data.getFormattedPrice()
+
+        descriptionTxt.text = data.description
 
         return row
     }

@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         mRoomList.add( RoomData( "경상도 어디구", 17500, 0,"친구 집에서 멈"))
         mRoomList.add( RoomData( "전라도 저쩌구", 1247500, 12,"학교에서 멈"))
         mRoomList.add( RoomData( "서울시 동대문구", 8000, 5, "1번째 방"))
-        mRoomList.add( RoomData( "서울시 문구", 80000000000, 2, "2번째 방"))
+        mRoomList.add( RoomData( "서울시 문구", 80000, 2, "2번째 방"))
         mRoomList.add( RoomData( "서울시 동구", 1230100, -3, "3번째 방"))
         mRoomList.add( RoomData( "서울시 홍구", 4050, 0, "14번째 방"))
         mRoomList.add( RoomData( "서울시 대구", 804200, -1, "11번째 방"))
