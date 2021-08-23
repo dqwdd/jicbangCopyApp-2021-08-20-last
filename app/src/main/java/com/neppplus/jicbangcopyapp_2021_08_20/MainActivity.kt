@@ -9,7 +9,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
     
-//    별개 주석용 브런치
+//    두번째 연습용 주석
 
     val mRoomList = ArrayList<RoomData>()
 //    방 목록을 담아주기 위한 배열
