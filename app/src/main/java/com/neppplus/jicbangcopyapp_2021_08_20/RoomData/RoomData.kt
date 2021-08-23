@@ -8,6 +8,22 @@ class RoomData (
     val price : Int,
     val floor : Int,
     val description : String ) {
+    
+    fun getFormattedFloor() : String {
+//        ${} 검색
+        if(this.floor > 0) {
+            return "${this.floor}"
+        }
+        else if (this.floor == 0) {
+            return "반지하"
+        }
+        else {
+            return "지하 ${-this.floor}층"
+//            그냥 "지하 ${-this.floor}층"하면 지하 -2층 떠서 '-' 더 붙여서 양수로 만들어야 함츠
+        }
+    }
+    
+    
 
 //        추가 기능 (1000단위마다 ','이나 '억' 찍는 것) 구현
 
