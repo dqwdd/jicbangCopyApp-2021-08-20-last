@@ -14,11 +14,16 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        mRoomList.add( RoomData( "은평구", 37500, 3,"역에서 멈"))
-        mRoomList.add( RoomData( "동작구", 7500, -1,"역에서 멈"))
-        mRoomList.add( RoomData( "어디구", 17500, 0,"역에서 멈"))
-        mRoomList.add( RoomData( "저쩌구", 1247500, 12,"역에서 멈"))
-
+        mRoomList.add( RoomData( "부산시 은평구", 37500, 3,"역에서 멈"))
+        mRoomList.add( RoomData( "충청남도 동작구", 7500, -1,"집에서 멈"))
+        mRoomList.add( RoomData( "경상도 어디구", 17500, 0,"친구 집에서 멈"))
+        mRoomList.add( RoomData( "전라도 저쩌구", 1247500, 12,"학교에서 멈"))
+        mRoomList.add( RoomData( "서울시 동대문구", 8000, 5, "1번째 방"))
+        mRoomList.add( RoomData( "서울시 문구", 8000, 2, "2번째 방"))
+        mRoomList.add( RoomData( "서울시 동구", 8000, -3, "3번째 방"))
+        mRoomList.add( RoomData( "서울시 홍구", 8000, 0, "14번째 방"))
+        mRoomList.add( RoomData( "서울시 대구", 8000, -1, "11번째 방"))
+        mRoomList.add( RoomData( "경기도 마구", 8000, 51, "12번째 방"))
 
 
 
