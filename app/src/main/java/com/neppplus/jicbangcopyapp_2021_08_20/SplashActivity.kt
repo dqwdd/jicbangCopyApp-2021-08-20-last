@@ -19,7 +19,7 @@ class SplashActivity : AppCompatActivity() {
                 val myIntent = Intent(this, MainActivity::class.java)
                 startActivity(myIntent)
                 finish()
-                              }, 2000)
+                              }, 3000)
 //        괄호 안에 뒤에 적은 3000millis(3초) 시간 후에 실행 될 코드를 넣어라
 
     }

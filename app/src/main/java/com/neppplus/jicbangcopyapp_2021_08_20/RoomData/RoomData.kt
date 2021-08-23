@@ -23,11 +23,8 @@ class RoomData (
 //            그냥 "지하 ${-this.floor}층"하면 지하 -2층 떠서 '-' 더 붙여서 양수로 만들어야 함
         }
     }
-    
-    
 
 //        추가 기능 (1000단위마다 ','이나 '억' 찍는 것) 구현
-
         fun getFormattedPrice() : String {
 
             if (this.price >= 10000) {

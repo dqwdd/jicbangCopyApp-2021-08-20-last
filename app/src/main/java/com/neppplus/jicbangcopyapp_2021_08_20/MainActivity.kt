@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
 //    방 목록을 담아주기 위한 배열
 
     lateinit var mRoomAdapter: RoomAdapter
-    //나중에 대입한다(검색)
+    //나중에 대입한다(초기값 설정 안해도 됨) (var만 사용) (널 허용에는 사용 불가)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -30,16 +30,14 @@ class MainActivity : AppCompatActivity() {
         mRoomList.add( RoomData( "서울시 대구", 804200, -1, "11번째 방"))
         mRoomList.add( RoomData( "경기도 마구", 123, 51, "12번째 방"))
 
-
 //        어댑터 연결 / 실행
-
 
         mRoomAdapter = RoomAdapter(this, R.layout.room_item_list, mRoomList)
         roomList.adapter = mRoomAdapter
 
 
         roomList.setOnItemClickListener { adapterView, view, position, l ->
-//            괄호()이게 아니라 {}이거로 함
+//            셋온아이템클릭리스너 목록중에 괄호()이게 아니라 {}이거로 함
             val clickedRoom = mRoomList[position]
             val myIntent = Intent(this, ViewRoomDetailActivity::class.java)
             myIntent.putExtra("roomData", clickedRoom)
