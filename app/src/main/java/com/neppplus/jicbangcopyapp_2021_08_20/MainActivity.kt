@@ -33,6 +33,9 @@ class MainActivity : AppCompatActivity() {
         mRoomList.add( RoomData( "경기도 마구", 123, 51, "12번째 방"))
 
 
+//        어댑터 연결 / 실행
+
+
         mRoomAdapter = RoomAdapter(this, R.layout.room_item_list, mRoomList)
         roomList.adapter = mRoomAdapter
 
