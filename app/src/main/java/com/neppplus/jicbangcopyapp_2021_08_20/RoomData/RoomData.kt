@@ -7,7 +7,7 @@ class RoomData (
     val place : String,
     val price : Int,
     val floor : Int,
-    val description : String {
+    val description : String ) {
 
 //        추가 기능 (1000단위마다 ','이나 '억' 찍는 것) 구현
 
@@ -29,6 +29,3 @@ class RoomData (
 
     }
 
-
-
-)
